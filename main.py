@@ -19,7 +19,7 @@ def keep_alive():
     while True:
         try:
             # Remplace cette URL avec l'URL de ton projet Railway
-            requests.get("https://<ton-projet>.railway.app/")
+            requests.get("https://WELCOMING-LAUGHTER.railway.app/")
             print("[KEEP ALIVE] Ping envoyé.")
         except Exception as e:
             print("[KEEP ALIVE] Erreur de ping :", e)
